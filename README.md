@@ -1,2 +1,2 @@
-# Jenkins_Parser_Gui
+# JenkinsParserGui
 Admin panel for JenkinsParser bot configuration

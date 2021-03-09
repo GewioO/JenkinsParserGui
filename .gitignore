@@ -1,5 +1,5 @@
+build-*
+/JenkinsParserGui/JenkinsParserGui.pro.user
 /build-JenkinsParserGui-Desktop_Qt_5_15_2_MinGW_64_bit-Debug
 /build-JenkinsParserGui-Desktop_Qt_6_0_2_MinGW_64_bit-Debug
 /build-JenkinsParserGui-Desktop-Debug
-JenkinsParserGui.pro.user
-JenkinsParserGui.pro

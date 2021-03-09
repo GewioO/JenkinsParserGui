@@ -1,5 +1,9 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>MenuView.qml</file>
+        <file>SignInView.qml</file>
+        <file>SettingsView.qml</file>
+        <file>MenuButton.qml</file>
     </qresource>
 </RCC>

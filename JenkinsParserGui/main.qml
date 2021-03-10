@@ -31,6 +31,13 @@ Window {
             }
 
             SettingsView {}
+
+            SettingsView {}
+
+            CurrentSettingsView {
+                Layout.alignment: Qt.AlignBaseline
+                Layout.minimumWidth: 300
+            }
         }
     }
 }

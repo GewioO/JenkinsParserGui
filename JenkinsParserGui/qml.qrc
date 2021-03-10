@@ -9,5 +9,6 @@
         <file>qml/InputElement.qml</file>
         <file>qml/LabelElement.qml</file>
         <file>qml/MenuButton.qml</file>
+        <file>CurrentSettingsView.qml</file>
     </qresource>
 </RCC>

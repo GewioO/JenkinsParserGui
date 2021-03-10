@@ -32,7 +32,10 @@ Window {
 
             SettingsView {}
 
-            ChangeSettingsView {
+            ChangeSettingsView {}
+            SettingsView {}
+
+            CurrentSettingsView {
                 Layout.alignment: Qt.AlignBaseline
                 Layout.minimumWidth: 300
             }

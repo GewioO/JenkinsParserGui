@@ -1,9 +1,13 @@
 <RCC>
     <qresource prefix="/">
-        <file>main.qml</file>
-        <file>MenuView.qml</file>
-        <file>SignInView.qml</file>
-        <file>SettingsView.qml</file>
-        <file>MenuButton.qml</file>
+        <file>qml/ChangeSettingsView.qml</file>
+        <file>qml/main.qml</file>
+        <file>qml/MenuView.qml</file>
+        <file>qml/SettingsView.qml</file>
+        <file>qml/SignInView.qml</file>
+        <file>qml/ButtonElement.qml</file>
+        <file>qml/InputElement.qml</file>
+        <file>qml/LabelElement.qml</file>
+        <file>qml/MenuButton.qml</file>
     </qresource>
 </RCC>

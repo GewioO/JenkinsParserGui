@@ -46,6 +46,7 @@ Item {
                     selectByMouse: true
                     autoScroll: true
                     cursorVisible: false
+                    clip: true
                     onTextChanged: if (text.length > 0) {
                                        button.enabled = true
                                    } else {
@@ -61,6 +62,10 @@ Item {
             Layout.alignment: Qt.AlignRight
             flat: false
             enabled: false
+            onClicked: {
+                signInModel.username = textInput.text
+                signInController.signIn = signInModel
+            }
         }
     }
 }

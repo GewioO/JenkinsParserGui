@@ -1,10 +1,11 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QQmlContext>
+#include "signincontroller.h"
+#include "signinmodel.h"
 
 int main(int argc, char *argv[])
 {
-    qputenv("QT_IM_MODULE", QByteArray("qtvirtualkeyboard"));
-
 #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 #endif
@@ -18,6 +19,12 @@ int main(int argc, char *argv[])
         if (!obj && url == objUrl)
             QCoreApplication::exit(-1);
     }, Qt::QueuedConnection);
+
+    SignInController signInController;
+    engine.rootContext()->setContextProperty("signInController", &signInController);
+    SignInModel signInModel;
+    engine.rootContext()->setContextProperty("signInModel", &signInModel);
+
     engine.load(url);
 
     return app.exec();

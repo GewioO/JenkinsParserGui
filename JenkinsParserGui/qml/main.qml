@@ -33,7 +33,6 @@ Window {
             SettingsView {}
 
             ChangeSettingsView {}
-            SettingsView {}
 
             CurrentSettingsView {
                 Layout.alignment: Qt.AlignBaseline

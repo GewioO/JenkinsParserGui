@@ -23,11 +23,11 @@ Item {
             Layout.column: 1
             text: qsTr("Home")
             onPressed: {
-                //if (signedIn) {
-                //    stackLayout.currentIndex = 1
-                //} else {
-                stackLayout.currentIndex = 0
-                //}
+                if (signInModel.isSignedIn) {
+                    stackLayout.currentIndex = 1
+                } else {
+                    stackLayout.currentIndex = 0
+                }
             }
         }
 
